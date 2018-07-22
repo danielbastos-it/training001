@@ -29,7 +29,7 @@ export default new Router({
     },
     {
       path: '/gerencial',
-      component: AuthLayout,
+      component: AppLayout,
       children: [
         {
           name: 'metas',
